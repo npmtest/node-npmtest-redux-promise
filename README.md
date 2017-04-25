@@ -1,6 +1,6 @@
 # npmtest-redux-promise
 
-#### test coverage for  [redux-promise (v0.5.3)](https://github.com/acdlite/redux-promise)  [![npm package](https://img.shields.io/npm/v/npmtest-redux-promise.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redux-promise) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redux-promise.svg)](https://travis-ci.org/npmtest/node-npmtest-redux-promise)
+#### basic test coverage for  [redux-promise (v0.5.3)](https://github.com/acdlite/redux-promise)  [![npm package](https://img.shields.io/npm/v/npmtest-redux-promise.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redux-promise) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redux-promise.svg)](https://travis-ci.org/npmtest/node-npmtest-redux-promise)
 
 #### FSA-compliant promise middleware for Redux.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-redux-promise/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-redux-promise/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-redux-promise/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-redux-promise/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-redux-promise/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-redux-promise/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-redux-promise/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-redux-promise/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-redux-promise/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-redux-promise/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-redux-promise/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-redux-promise/build/coverage.html/index.html)
 
@@ -88,7 +88,8 @@
         "prepublish": "make clean build",
         "test": "make test"
     },
-    "version": "0.5.3"
+    "version": "0.5.3",
+    "bin": {}
 }
 ```
 
